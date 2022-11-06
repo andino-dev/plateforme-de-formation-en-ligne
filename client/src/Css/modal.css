@@ -1,0 +1,58 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    z-index: -1;
+    transition : all 0.3s linear;
+}
+.isOpen{
+    opacity:1;
+    z-index:999;
+}
+.modal-content {
+    width: 70vw !important;
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+  }
+.title-modal-skills{
+    letter-spacing: 0.02rem;
+    font-weight: 400;
+    color:#0caebd;
+}
+.description-modal{
+    letter-spacing: 0.02rem;
+    font-size: 17px;
+    font-weight: 350;
+    color:black;
+}
+
+.button-launchTest{
+    letter-spacing: 0.02rem;
+    background-color: #0caebd;
+    color:white;
+    border: 1px solid #0caebd;
+
+}
+.button-launchTest:active{
+    letter-spacing: 0.04rem;
+}
+.icon-modal{
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+    top:1px;
+    width: 30px;
+    font-size: 25px;
+    color:red;
+    border:none;
+    
+    
+}

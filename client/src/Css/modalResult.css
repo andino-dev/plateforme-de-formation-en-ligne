@@ -1,0 +1,91 @@
+.is-show{
+    opacity: 1;
+    z-index:999;
+}
+.result-component{
+    opacity: 0;
+    z-index: -1;
+}
+.evaluation-result{
+    margin: 0 2rem 0  2rem;
+    height: 640px;
+    border:1px solid rgb(168, 167, 167);
+    box-shadow: 0.5px  0.5px 2.5px   rgb(168, 167, 167) ;
+}
+.evaluation-result-modal{
+  background-color: rgb(66, 79, 92);
+  height: 200px;
+  width:100%;
+}
+.evaluation-title{
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    color:white;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-align: center;
+}
+.result-modal-content{
+    margin-top: 2.6rem;
+    margin-left:5%;
+    width: 90%;
+    height: 380px !important;
+    background-color: white;
+    box-shadow: 0.5px  0.5px 4px   rgb(168, 167, 167) ;
+}
+.icons-result{
+    margin-left: 49%;
+    margin-top: -1.6%;
+    padding:0.5rem 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 3px solid #07a1af;
+    background-color: #d9f7fa;
+    border-radius: 50%;
+    color:#07a1af ;
+}
+.title-result-content{
+    text-align: center;
+    width: 100%;
+    margin-top:2rem;
+    height: 80px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.result-title-value{
+    font-weight:100 !important;
+    font-size: 1.4rem;
+    color: rgb(133, 133, 133) !important;
+    font-family:  sans-serif;
+    letter-spacing: 0.2px;
+}
+.result-title-rank{
+    margin-top:1rem;
+    font-weight: 600;
+    font-size: 0.8rem !important;
+    letter-spacing: 0.18rem;
+    color:rgb(66, 79, 92) !important;
+}
+.ImCrying2{
+    margin-top:2rem;
+    margin-left: 46%;
+    font-size: 10rem;
+    color:#eb9c26;
+}
+.ImGift{
+    margin-top:2rem;
+    margin-left: 46%;
+    font-size: 10rem;
+    color: #07b1c0;
+}
+.button-return-profil{
+ position: fixed;
+ right:3.5rem;
+ top: 37rem;
+ border: none;
+ padding: 0.25rem 0.6rem;
+ background-color:#038692;
+ letter-spacing: 0.05rem;
+ font-weight: 600;
+ color:white;
+}

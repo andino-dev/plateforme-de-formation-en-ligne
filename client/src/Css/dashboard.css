@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+.dashboard-flex{
+    top:0;
+    left:0;
+    position:sticky;
+    border-bottom: 1px solid #dfe3e8;
+    font-family: 'Varela Round', sans-serif;
+    z-index:1020;
+    background-color: white;
+    height: 50px;
+    overflow: hidden;
+}
+.dashboard-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin:0.2rem 0.5rem 0 0.25rem;
+}
+     /*  logo */
+.logo-content{
+    margin-top:0.25rem;
+    display: flex;
+    font-size: 1.3rem;
+}
+.content-logo-left{
+    color:rgb(2, 74, 119);
+   
+}
+.content-learning{
+    font-weight: 200;
+    color:  #5c6ac4;	
+}
+.user-logo{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+.logout{
+    width:100px;
+    height:25px;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+}
+.name-user{
+    text-transform: uppercase;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    padding:0.2rem;
+    font-size: 15px !important;
+    border: 1px solid #06BBCC;
+    border-radius: 50%;
+    background-color: #06BBCC;
+    color:white !important;
+}
+
+.section-welcome{
+    text-align: center;
+    
+}
+.dashboard-welcome-name{
+    margin-top:2rem;
+    font-size: 2rem !important;
+    text-transform: capitalize;
+}
+.dashboard-welcome-name >span{
+    color: #0caebd;
+}
+.quizz-languages{
+    margin-top:5%;
+    margin-left: 40%;
+}
+.quizz{
+    cursor: pointer;
+    width:430px;
+    margin-top: 3rem;
+    height:40px;
+    overflow-y: hidden;
+}
+.quizz:hover{
+    height:150px;
+}
+.sub-title{
+  font-size: 18px;
+  font-weight: 350;
+}
+.description{
+ font-weight: 300;
+}
+
+.quizz-title{
+    font-weight: 300;
+    width:430px;
+    border-bottom: 0.02rem solid black;
+
+}
+.quizz-description{
+    letter-spacing: 0.05rem;
+    font-weight: 350;
+}
+.quizz-start{
+  background-color: #0caebd;
+  color:white;
+  border: 1px solid #0caebd;
+  padding: 0.5rem 0.5rem;
+  letter-spacing: 0.05rem;
+  text-transform: capitalize;
+  border-radius: 4px ;
+  
+}

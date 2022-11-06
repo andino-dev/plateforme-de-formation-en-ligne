@@ -1,0 +1,109 @@
+
+.navbar-flex{
+    top:0;
+    left:0;
+    position:sticky;
+    border-bottom: 1px solid #dfe3e8;
+    font-family: 'Varela Round', sans-serif;
+    z-index:1020;
+    background-color: white;
+}
+.navbar-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin:0.25rem 0.50rem 0 0.50rem;
+}
+     /*  logo */
+.logo-content{
+    margin-top:0.50rem;
+    display: flex;
+    font-size: 1.3rem;
+}
+.content-logo-left{
+    color:rgb(2, 74, 119);
+   
+}
+.content-learning{
+    font-weight: 200;
+    color:  #5c6ac4;	
+}
+    /* logo */
+
+    /*register, login and siginin */
+.navbar-register{
+    display: flex;
+
+}
+.btn-login{
+    padding: 12px 12px;
+    margin:7px 4px;
+    background: transparent;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    color:rgb(66, 79, 92);
+    text-decoration: none;
+    border: 1px solid rgb(66, 79, 92);
+    border-radius: 3px;
+}
+.btn-login:active{
+    border: none;
+    background-color: rgb(0,0,0);
+    color:white;
+}
+.btn-register{
+    list-style: none;
+    text-decoration: none;
+    padding: 12px 0;
+    padding-left: 5px;
+    margin:7px 4px;
+    width:140px;
+    font-family:sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    color:white;
+    text-transform: capitalize;
+    background-color: rgb(24, 125, 226);
+    border: 1px solid rgb(24, 125, 226);
+    border-radius: 2px;
+}
+.aiOutlineArrowRight{
+    font-size: 1.2rem;
+    width: 1.4rem;
+
+}
+.btn-register:hover{
+    border:1px solid rgb(2, 83, 158);
+    background-color: transparent;
+    color:rgb(2, 83, 158) !important;
+}
+.btn-register:hover > .aiOutlineArrowRight{
+    transition: all ease-in-out 0.4s;
+    font-size: 1.4rem;
+    width:1.7rem;
+}
+
+    /*register, login and siginin */
+
+    /*content-page*/
+.navbar-content-page{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+    color:#888;
+    background: transparent;
+    font-size:0.99rem;
+    margin : 1rem 3.20rem 1rem 0;
+    cursor: pointer;
+}
+.active{
+    color:#06BBCC;
+}

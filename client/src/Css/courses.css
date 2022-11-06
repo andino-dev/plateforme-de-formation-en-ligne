@@ -1,0 +1,206 @@
+.courses-name{
+    position: relative;
+    left:45%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #06BBCC;
+    background: white !important;
+    padding:0 1rem !important;
+}
+.courses-name::before{
+    position: absolute;
+    width: 240px;
+    content: "";
+    height: 2px;
+    top: 4px;
+    left: -72.5px;
+    background: #06BBCC;
+    z-index: -1;
+}
+
+.courses-name::after{
+        position: absolute;
+        width: 280px;
+        content: "";
+        height: 2px;
+        top: 12px;
+        left: -92.5px;
+        background: #06BBCC;
+        z-index: -1;
+ }
+ .title-welcome-courses{
+     margin-top: 0.75rem;
+     margin-left: -5rem;
+     text-align: center;
+     letter-spacing: 0.02rem;
+     font-family: sans-serif;
+     font-weight: 500;
+
+ }
+ @keyframes fadeInUpBig{
+     0%{
+         opacity:0;
+         transform:translate3d(0,200px,0)
+        }
+    to{
+        opacity:1;
+        transform:none
+    }
+}
+.fadeInUpBig{
+    animation-name:fadeInUpBig
+}
+
+.section-courses{
+    margin-top: 5rem;
+    height: 100%;
+}
+.flex{
+    display: flex;
+    justify-content:space-around;
+}
+.card-course{
+    margin:0 5rem;
+    height: 500px;
+}
+.card-content-course{
+    width: 335px;
+    height: 340px;
+    margin:1rem 1rem;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0 6px gray;
+}
+.title-card{
+    text-align: center;
+    font-size: 3rem;
+}
+.price-course{
+    text-align: center;
+    padding: 0.5rem 0.2rem 0 0.2rem;
+    color:rgb(192, 8, 8);
+    letter-spacing: 0.02rem;
+    font-weight: 600;
+    animation-timing-function: ease-in;
+    animation-duration: 0.75s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-name: ColorChange;
+}
+.cash{
+    color:rgb(192, 8, 8);
+    transform: rotate(-28deg);
+    margin-top: -3.3rem;
+    margin-left: 0.2rem;
+    margin-right: -0.7rem;
+    animation-timing-function: ease-in;
+    animation-duration: 0.75s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-name: ColorChange;
+}
+.html{
+    color:rgb(255, 102, 0);
+}
+.css{
+    color:rgb(38, 184, 241);
+}
+.js{
+    color:rgb(202, 173, 5);
+}
+.description-course{
+    padding: 0.5rem 0.5rem;
+    text-align: justify;
+    display: inline-block;
+    width: 320px;
+    font-weight: 300;
+}
+.button-class{
+    margin-left: 32.5%;
+    border:1px solid #06BBCC;
+    border-radius: 4px;
+    width:120px;
+    height: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #06BBCC;
+    color:white;
+}
+.ruler{
+    margin-left: 0.3rem;
+}
+@keyframes flipInY{
+    0%{
+        transform:perspective(400px) rotateY(90deg);
+        animation-timing-function:ease-in;
+        opacity:0
+    }
+    40%{
+        transform:perspective(400px) rotateY(-20deg);
+        animation-timing-function:ease-in
+    }
+    60%{
+        transform:perspective(400px) rotateY(10deg);
+        opacity:1
+    }
+    80%{
+        transform:perspective(400px) rotateY(-5deg)
+    }
+    to{
+        transform:perspective(400px)
+    }
+}
+.flipInY{
+    -webkit-backface-visibility:visible!important;
+    backface-visibility:visible!important;
+    animation-name:flipInY
+}
+@keyframes flipInX{
+    0%{
+        transform:perspective(400px) rotateX(90deg);
+        animation-timing-function:ease-in;
+        opacity:0
+    }
+    40%{
+        transform:perspective(400px) rotateX(-20deg);
+        animation-timing-function:ease-in
+    }
+    60%{
+        transform:perspective(400px) rotateX(10deg);
+        opacity:1
+    }
+    80%{
+        transform:perspective(400px) rotateX(-5deg)
+    }
+    to{
+        transform:perspective(400px)
+    }
+}
+       
+.card-course:active{
+    animation-duration:1s;
+    -webkit-backface-visibility:visible!important;
+    backface-visibility:visible!important;
+    animation-name:flipInX
+}
+@keyframes ColorChange {
+    0%{
+        color:rgb(255, 102, 0);
+    }
+    75%{
+        color:rgb(38, 184, 241);
+    }
+    100%{
+        color:rgb(202, 173, 5);
+    }
+}
+.first-child{
+    position:absolute;
+    margin-top:0.02rem;
+    font-size: 1rem;
+}
+.month{
+    margin-left: 1.6rem;
+}

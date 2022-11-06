@@ -1,0 +1,109 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.about{
+    margin:0 ;
+    padding:0;
+    font-family:"Nunito",sans-serif;
+    height: 700px;
+}
+.about-content{
+    margin: 6.5rem 8rem;
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    overflow: hidden;
+}
+.animated{
+    animation-duration:1s;
+    animation-fill-mode:both
+}
+.animated.infinite{
+    animation-iteration-count:infinite
+   }
+@keyframes fadeInUp{
+    0%{
+        opacity:0;
+        transform:translate3d(0,100%,0)
+    }to
+    {
+        opacity:1;
+        transform:none
+    }
+    }
+.fadeInUp{
+        animation-name: fadeInUp;
+    }  
+.Img-content{
+    width:650px;
+    height: 450px;
+    overflow: hidden;
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-duration: 0.9s;
+}
+.image-about{
+    margin-top:-5rem;
+    width:650px;
+    height:660px;
+}
+.about-text-container{
+    font-family: sans-serif;
+    margin : 0 4rem;
+    width:100%;
+    height: 450px;
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-duration: 0.9s;
+    
+}
+.about-name{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #06BBCC;
+    background: white !important;
+    text-align: left !important;
+    padding-right: 1rem !important;
+}
+.about-name.text-start ::before{
+left:0;
+}
+.about-name::before{
+    position: absolute;
+    width: 140px;
+    content: "";
+    height: 2px;
+    top: 4px;
+    left: 0px;
+    background: #06BBCC;
+    z-index: -1;
+}
+.about-name.text-start ::after{
+    left:0;
+ }
+.about-name::after{
+        position: absolute;
+        width: 160px;
+        content: "";
+        height: 2px;
+        top: 12px;
+        left: 0px;
+        background: #06BBCC;
+        z-index: -1;
+ }
+ .welcome-about{
+    font-size: 2.5rem;
+    font-weight: 550;
+    line-height: 1.2;
+    letter-spacing: 0.07;
+    
+ }
+.quotes-about{
+    margin:1.5rem 0;
+    width:800px;
+    color:rgb(83, 81, 81);
+    font-weight: 400;
+    font-size: 15.6px;
+}
