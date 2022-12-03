@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(cors());
 app.use("/api/users/",users);
 app.use(passport.initialize());
+//git add
 //ajout de commentaire
 //passport config
 require('./passport')(passport);
